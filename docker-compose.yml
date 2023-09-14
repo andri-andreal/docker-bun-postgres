@@ -2,7 +2,9 @@ version: '3'
 
 services:
   webapp:
-    image: oven/bun:1.0
+    build:
+      context: ./install/bun
+      dockerfile: Dockerfile
     init: true
     ulimits:
       memlock: -1
