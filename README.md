@@ -67,6 +67,15 @@ Install my-project with docker & docker-compose (make sure you already install d
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. Id of item to fetch |
 
+## Database
+
+in folder :
+
+```http
+  install/db/
+```
+all sql will execute after db service is run.
+
 ## Authors
 
 - [@andri-andreal](https://www.github.com/andri-andreal)
