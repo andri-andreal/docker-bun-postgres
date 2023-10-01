@@ -3,8 +3,8 @@ version: '3'
 services:
   webapp:
     build:
-      context: ./install/bun
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: ./install/bun/Dockerfile
     init: true
     ulimits:
       memlock: -1
